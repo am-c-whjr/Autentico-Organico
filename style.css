@@ -1,16 +1,27 @@
 body
 {
-background-color: rgba(0,58,60,1);
+background-color: rgba(200,255,255,1) ;
+
 }
 h3{
+    color: black;
+    display: inline-block;
+}
+h2{
     color: white;
 }
-h1{
+h4{
     color: white;
 }
-img{
-    width: 200px;
-    height: 200px;
+h5{ 
+    color: white;}
+#wi{
+    width: 30%;
+    height: 30%;
+}
+#pro{
+    width: 10%;
+    height:10%;
 }
 #whatsapp-widget-timelines {
     position: fixed;
@@ -39,7 +50,7 @@ img{
     white-space: nowrap;
     text-decoration: none;
     width: 60px;
-    font-family: Roboto, "Helvetica Neue", ;sans-serif;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
     font-size: 11px;
     line-height: 11px;
     border: 0px;
@@ -128,3 +139,58 @@ img{
       min-height: 35px;
     }
   }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#h{
+    background-color: rgba(0,58,60,1);
+       text-align: center;
+}
+#1{
+    color: black;
+}
+#3{
+    color: black;
+}
+#2{
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+#cu{
+    background-color: rgba(0,58,60,1);
+}
+#a{
+    font-size: 15px;
+}
+img{
+    width: 40%;
+    height: 40%;
+}
+#m{
+   text-align: center; 
+}
+#c{
+    font-size: 25px;
+}
